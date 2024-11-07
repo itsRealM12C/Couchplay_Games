@@ -1,0 +1,1705 @@
+body {
+    background-color: #3a4e66 !important
+}
+
+.welcomePush {
+    color: #FFD04A
+}
+
+#screen {
+    top: 20px !important
+}
+
+#iconNavi {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 720px;
+    transition: width 300ms;
+    background-color: #222e3c;
+    overflow: hidden;
+    z-index: 1000
+}
+
+.iconNaviLink {
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 20px;
+    padding: 16px 0px
+}
+
+.iconNaviLink:focus,.iconNaviLink:hover {
+    background-color: #FFF
+}
+
+.iconNaviName {
+    margin-top: -12px;
+    font-size: 15px;
+    font-family: 'couchplay',Tiresias,'Philips Screen Font 4','Droid Sans',sans-serif;
+    margin-left: 20px;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    letter-spacing: 1px;
+    vertical-align: middle
+}
+
+#fullBody {
+    position: absolute;
+    overflow: hidden;
+    width: 1280px;
+    height: 720px;
+    top: -20px;
+    left: -63px
+}
+
+#TVSpieleCenterLogoTop {
+    position: absolute;
+    height: 20px;
+    width: 144px;
+    top: 42px;
+    left: 0px;
+    background-image: url(/images/cms_images/couchplay_144x20_46773_20231005115157_144x20.png);
+    background-repeat: no-repeat
+}
+
+.specialHalloween #TVSpieleCenterLogoTop {
+    background-image: url(/images/cms_images/portal_logo_49920_20241030101408_144x20.png)
+}
+
+.lang_EN #TVSpieleCenterLogoTop2 {
+    background-image: none
+}
+
+#TVSpieleCenterTime {
+    position: absolute;
+    height: 40px;
+    width: 275px;
+    text-align: right;
+    top: 8px;
+    right: 0px
+}
+
+.TVSpieleCenterLogo {
+    position: absolute;
+    height: 66px;
+    width: 223px;
+    top: 0px;
+    left: 0px;
+    background-color: #003d5c
+}
+
+#TVDate {
+    color: #ECEFFF;
+    font-size: 19px
+}
+
+#TVTime {
+    color: #ECEFFF;
+    font-size: 28px
+}
+
+#logoPlay {
+    font-weight: bold;
+    color: #FEFEFE
+}
+
+#video-container-small-bg {
+    top: 0px !important;
+    left: 0px !important;
+    width: 1280px;
+    height: 720px;
+    z-index: 3;
+    background-color: #FFF;
+    opacity: 0.85
+}
+
+.fullscreenMode #video-container-small {
+    position: absolute;
+    top: 61px !important;
+    left: 882px !important;
+    width: 300px;
+    height: 170px
+}
+
+#adSpace,#nextFeed {
+    position: absolute;
+    width: 300px;
+    height: 156px;
+    left: 852px !important;
+    top: 235px !important;
+    z-index: 2;
+    overflow: hidden
+}
+
+.nextFeedItem {
+    position: absolute;
+    width: 300px;
+    height: 156px;
+    top: 0px;
+    left: 0px;
+    transition: left 500ms
+}
+
+.nextFeedItemInner {
+    position: absolute;
+    width: 300px;
+    height: 156px;
+    top: 0px;
+    left: 0px;
+    color: #FFF
+}
+
+.nextFeedItemText {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    top: 0px;
+    left: 0px;
+    font-family: 'couchplay',Tiresias,'Philips Screen Font 4','Droid Sans',sans-serif;
+    background: linear-gradient(0deg, transparent, #1e2a32);
+    text-shadow: 0px 0px 5px #000;
+    font-size: 22px;
+    text-align: center
+}
+
+#adSpace_switch {
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 156px;
+    left: 852px !important;
+    top: 235px !important;
+    z-index: 2
+}
+
+#adSpace {
+    background-image: url(/spielecenter/images/rectangle_info_squirrel_jump_n_run_v2.png)
+}
+
+#adSpace2 {
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    left: 852px !important;
+    top: 46px !important;
+    z-index: 2
+}
+
+#adSpace2 {
+    background-image: url(/spielecenter/images/couchplay_info_banner.png)
+}
+
+.lang_EN #adSpace2 {
+    background-image: url(/spielecenter/images/couchplay_info_2023_EN.png) !important
+}
+
+#adSpace2.gamepad {
+    background-image: url(/spielecenter/images/homepage_samsung_gamepad_300x156.png)
+}
+
+#adSpace2.onlyOnStartpage {
+    background-image: url(/images/cms_images/startpage_banner_40268_20201201191618_300x170.png) !important
+}
+
+#gamePreviewFullArea {
+    display: none;
+    position: absolute;
+    width: 830px;
+    height: 345px;
+    background-image: url('/spielecenter/images/cp_grafik_einstieg3.png');
+    top: 46px;
+    left: 0px;
+    z-index: 100
+}
+
+#videoGradientV {
+    position: absolute;
+    height: 440px;
+    width: 400px;
+    top: 0px;
+    left: -10px;
+    z-index: 105;
+    background-image: linear-gradient(90deg, #3a4e66 10px,transparent)
+}
+
+#videoGradientH {
+    position: absolute;
+    height: 30px;
+    width: 792px;
+    top: 410px;
+    left: -10px;
+    z-index: 105;
+    background-image: linear-gradient(0deg, #3a4e66 -20px,transparent)
+}
+
+#gamePreview,#gamePreviewController {
+    z-index: 100;
+    position: absolute;
+    width: 782px;
+    height: 440px;
+    top: 0px;
+    left: 389px
+}
+
+#gamePreviewImage {
+    z-index: 101;
+    position: absolute;
+    width: 782px;
+    height: 440px;
+    top: 0px;
+    left: 0px;
+    display: block
+}
+
+.fullscreen #gamePreviewImage {
+    display: none
+}
+
+.smallscreen #gamePreviewImage {
+    display: none
+}
+
+#gamePreview.smallscreen {
+    z-index: 400;
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    top: 46px;
+    left: 852px
+}
+
+#gamePreview.fullscreen {
+    z-index: 4000;
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    top: -35px;
+    left: -63px
+}
+
+#gamePreviewMovie {
+    z-index: 103;
+    position: absolute;
+    width: 782px;
+    height: 440px;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    display: none;
+    visibility: hidden
+}
+
+.fullscreen #gamePreviewMovie {
+    z-index: 103;
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    top: 0px;
+    left: 0px;
+    display: none;
+    visibility: hidden
+}
+
+.smallscreen #gamePreviewMovie {
+    z-index: 103;
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    top: 0px;
+    left: 0px;
+    display: none;
+    visibility: hidden
+}
+
+#videoPlayer {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 782px;
+    height: 440px
+}
+
+.fullscreen #videoPlayer {
+    left: 284px;
+    top: 0px;
+    position: absolute;
+    width: 996px;
+    height: 550px
+}
+
+.smallscreen #videoPlayer {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 300px;
+    height: 170px
+}
+
+#video-container-small.fullscreen {
+    position: absolute;
+    top: 0px !important;
+    left: 0px !important;
+    width: 1280px !important;
+    height: 720px !important
+}
+
+#video-container-small #welcomePlayer {
+    position: absolute;
+    top: 0px !important;
+    left: 0px !important;
+    width: 300px !important;
+    height: 170px !important
+}
+
+#video-container-small.fullscreen #welcomePlayer {
+    position: absolute;
+    top: 50px !important;
+    left: 125px !important;
+    width: 990px !important;
+    height: 560px !important
+}
+
+.smallPlayerButton {
+}
+
+.smallPlayerButton:focus,.smallPlayerButton:hover {
+}
+
+#controllerBar {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 0px;
+    top: 140px;
+    opacity: 1
+}
+
+#video-container-small.fullscreen #controllerBar {
+    width: 300px;
+    height: 60px;
+    left: 816px;
+    top: 630px;
+    opacity: 1
+}
+
+#smallPlayerStopButton {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background-image: url('/spielecenter/images/btn_stop_default.png');
+    background-size: 40px 40px;
+    display: none
+}
+
+#smallPlayerStopButton:hover,#smallPlayerStopButton:focus {
+    background-image: url('/spielecenter/images/btn_stop_hover.png')
+}
+
+#smallPlayerPauseButton {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background-image: url('/spielecenter/images/btn_pause_default.png');
+    background-size: 40px 40px;
+    display: none
+}
+
+#smallPlayerPauseButton.pause {
+    background-image: url('/spielecenter/images/btn_play_default.png')
+}
+
+#smallPlayerPauseButton.playing {
+    background-image: url('/spielecenter/images/btn_pause_default.png')
+}
+
+#smallPlayerPauseButton:hover,#smallPlayerPauseButton:focus {
+    background-image: url('/spielecenter/images/btn_pause_hover.png')
+}
+
+#smallPlayerPauseButton.playing:hover,#smallPlayerPauseButton.playing:focus {
+    background-image: url('/spielecenter/images/btn_pause_hover.png')
+}
+
+#smallPlayerPauseButton.pause:hover,#smallPlayerPauseButton.pause:focus {
+    background-image: url('/spielecenter/images/btn_play_hover.png')
+}
+
+#smallPlayerFullscreenButton {
+    position: absolute;
+    width: 83px;
+    height: 30px;
+    left: 217px;
+    top: 0px;
+    background-image: url('/spielecenter/images/btn_enlarge_default.png');
+    background-size: 83px 30px
+}
+
+#smallPlayerFullscreenButton:hover,#smallPlayerFullscreenButton:focus {
+    background-image: url('/spielecenter/images/btn_enlarge_hover.png')
+}
+
+#video-container-small.fullscreen #smallPlayerPauseButton {
+    height: 60px;
+    width: 60px;
+    left: 0px;
+    top: 0px;
+    background-size: 60px 60px;
+    display: block
+}
+
+#video-container-small.fullscreen #smallPlayerStopButton {
+    height: 60px;
+    width: 60px;
+    left: 68px;
+    top: 0px;
+    background-size: 60px 60px;
+    display: block
+}
+
+#video-container-small.fullscreen #smallPlayerFullscreenButton {
+    height: 60px;
+    width: 165px;
+    left: 135px;
+    top: 0px;
+    background-size: 165px 60px
+}
+
+#gamePreviewButtonDiv {
+    z-index: 105;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 145px;
+    left: 245px
+}
+
+#gameComingSoonDiv {
+    position: absolute;
+    width: 782px;
+    height: 50px;
+    top: 200px;
+    left: 0px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 50px;
+    color: #fff;
+    background-color: rgba(200,200,200,0.6);
+    opacity: 0;
+    z-index: 104
+}
+
+#gamePreviewButton {
+    background-image: url('/spielecenter/images/play_button.gif');
+    border: 5px solid transparent;
+    display: block;
+    height: 64px;
+    width: 64px
+}
+
+#gamePreviewButton:focus,#gamePreviewButton:hover {
+    border: 5px solid red
+}
+
+#gameMeta {
+    position: absolute;
+    height: 312px;
+    width: 510px;
+    top: 82px;
+    left: 0px;
+    z-index: 100;
+    color: #FFF
+}
+
+.body_sport1 #gameMeta, .body_rtl2 #gameMeta {
+    top: 68px;
+    color: #000;
+    background-color: #FFF
+}
+
+.gameBullets {
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    background-color: #5A6D84;
+    margin-right: 10px;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    color: #FFF;
+    border-radius: 2px
+}
+
+#gameCategory {
+}
+
+#gameStats {
+}
+
+.body_sport1 #gameCategory {
+    font-family: 'Sport1-Regular';
+    padding: 6px 5px 2px 76px;
+    color: #AAA;
+    font-size: 18px
+}
+
+#gameCategoryIcon {
+    font-family: 'rtl2symbol';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-size: 45px
+}
+
+#gameCategoryIcon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    padding-right: 2px;
+    top: -5px
+}
+
+.body_sport1 #gameStats {
+    font-family: 'Sport1-Regular';
+    color: #AAA;
+    opacity: 1;
+    font-size: 18px
+}
+
+.body_rtl2 #gameStats {
+    color: #5C5C5C;
+    opacity: 1;
+    font-size: 16px;
+    padding: 2px 5px 0px 66px
+}
+
+.releaseText {
+    color: #34b0ea
+}
+
+#gameName {
+    font-size: 55px;
+    line-height: 60px;
+    padding-top: 20px;
+    font-family: 'couchplay',Tiresias,'Philips Screen Font 4','Droid Sans',sans-serif
+}
+
+.body_sport1 #gameName {
+    font-family: 'Sport1',Tiresias,'Philips Screen Font 4','Droid Sans',sans-serif;
+    padding: 14px 5px 0px 16px
+}
+
+.body_rtl2 #gameName {
+    font-family: 'latoblack',Tiresias,'Philips Screen Font 4','Droid Sans',sans-serif;
+    padding: 14px 5px 0px 16px
+}
+
+.gameMeta_-14 #gameName, .gameMeta_-5 #gameName, .gameMeta_-6 #gameName, .gameMeta_-21 #gameName {
+    display: none
+}
+
+.gameMeta_-14 #gameDesc, .gameMeta_-5 #gameDesc, .gameMeta_-6 #gameDesc, .gameMeta_-21 #gameDesc {
+    font-family: 'couchplay',Tiresias,'Philips Screen Font 4','Droid Sans',sans-serif;
+    font-size: 38px;
+    line-height: 50px
+}
+
+#gameDesc {
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 25px
+}
+
+.product_pro7 #gameDesc, .product_pro7at #gameDesc {
+    color: #555;
+    opacity: 1
+}
+
+#gameFavorites {
+    position: relative;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+#gameFavoriteExplain {
+    position: absolute;
+    bottom: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0px 5px 0px 16px;
+    box-sizing: border-box;
+    color: #555
+}
+
+#favText,#favIcon,#favNumber,#favPlayer {
+    display: inline-block;
+    overflow: hidden
+}
+
+#favText {
+    max-width: 0px
+}
+
+#favText.animated {
+    -moz-transition: max-width 500ms;
+    -webkit-transition: max-width 500ms;
+    -o-transition: max-width 500ms;
+    transition: max-width 500ms
+}
+
+#gameRecommendationText {
+    font-size: 18px;
+    left: 16px;
+    position: absolute;
+    top: 320px
+}
+
+#gameRecommendation {
+    left: 68px;
+    position: absolute;
+    top: 320px;
+    width: 468px
+}
+
+#gameRecommendation a {
+    font-size: 16px;
+    display: inline-block;
+    white-space: nowrap;
+    margin: 2px;
+    background-color: #4D4D4D;
+    color: #FEFEFE;
+    padding: 0px 5px 0px 5px;
+    border: 1px solid #999
+}
+
+#gameRecommendation a:hover,#gameRecommendation a:focus {
+    background-color: #34b0ea
+}
+
+a.gameKachel {
+    height: 108px;
+    position: absolute;
+    width: 150px;
+    line-height: 0px
+}
+
+a.gameKachel.kachel34 {
+    height: 198px;
+    width: 150px
+}
+
+.activeLane .gameKachel {
+}
+
+.body_sport1 .gameKachel {
+    background-color: #F6A800
+}
+
+.body_sport1 .gameKachel .lastPlayed {
+    color: #FFF
+}
+
+.body_rtl2 .gameKachel {
+    background-color: #E41B41
+}
+
+.gameKachel.gameKachelSelected {
+    height: 128px;
+    z-index: 200;
+    border: 2px solid #FFF;
+    margin-left: -2px
+}
+
+.kachel34.gameKachel.gameKachelSelected {
+    height: 219px
+}
+
+.body_sport1 .gameKachel.gameKachelSelected {
+    border: 4px solid #f6a800
+}
+
+.body_rtl2 .gameKachel.gameKachelSelected {
+    border: 4px solid #E41B41
+}
+
+#kachelContainerVisible.highPerformance .gameKachel.gameKachelSelected {
+    opacity: 1;
+    box-shadow: -6px 0px 6px -2px #222e3c, 6px 0px 6px -2px #222e3c;
+    -moz-box-shadow: -6px 0px 6px -2px #222e3c, 6px 0px 6px -2px #222e3c;
+    -webkit-box-shadow: -6px 0px 6px -2px #222e3c, 6px 0px 6px -2px #222e3c
+}
+
+.body_sport1 #kachelContainerVisible.highPerformance .gameKachel.gameKachelSelected, .body_rtl2 #kachelContainerVisible.highPerformance .gameKachel.gameKachelSelected {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.gameKachel:focus,.gameKachel:hover {
+}
+
+.kachelAction {
+    display: none;
+    position: absolute;
+    top: 106px;
+    left: 2px;
+    width: 146px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    background-color: #F0001E
+}
+
+.kachel34 .kachelAction {
+    top: 197px
+}
+
+.lastPlayedBG {
+    position: absolute;
+    width: 146px;
+    height: 24px;
+    line-height: 26px;
+    top: 104px;
+    left: 0;
+    opacity: 1;
+    background-color: #2f414d
+}
+
+.lastPlayedBG.new {
+    background-color: #2DC223
+}
+
+.lastPlayed {
+    position: absolute;
+    width: 146px;
+    height: 24px;
+    line-height: 26px;
+    top: 104px;
+    left: 0;
+    text-align: center;
+    color: #b2bbbb
+}
+
+.lastPlayed.new {
+    color: #FFF
+}
+
+.notiCounter {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    line-height: 22px;
+    font-size: 18px;
+    color: #FFF;
+    top: -10px;
+    right: -2px;
+    text-align: center;
+    background-color: #F00;
+    border-radius: 15px
+}
+
+.nav .selected .notiCounter {
+    background-color: #FFF;
+    color: red
+}
+
+.gameKachelSelected .lastPlayed, .gameKachelSelected .lastPlayedBG {
+    display: none
+}
+
+.hand,.hand_spielen,.hand_leer,.hand_abspielen,.hand_info,.hand_open,.hand_kino {
+    position: absolute;
+    width: 165px;
+    height: 95px;
+    top: 92px;
+    left: 0
+}
+
+.gameKachel .hand_spielen, .gameKachel .hand {
+    display: none;
+    background-image: url("/spielecenter/images/navi_zeiger_weiss.png");
+    background-repeat: no-repeat;
+    background-position: 15px 27px;
+    z-index: 210
+}
+
+.gameKachel .badge.gamepad {
+    position: absolute;
+    width: 30px;
+    height: 22px;
+    top: 1px;
+    right: 1px;
+    background-image: url("/spielecenter/images/gamepad_w_icon_22.png");
+    background-repeat: no-repeat
+}
+
+#gameExclusive {
+    position: absolute;
+    display: none;
+    top: 34px;
+    right: 64px;
+    background-image: url("/spielecenter/images/badge_samsung_exclusive.png");
+    width: 90px;
+    height: 35px;
+    z-index: 106
+}
+
+.gameKachel .exclusive {
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    top: -10px;
+    left: 60px;
+    background-image: url("/spielecenter/images/badge_samsung_exclusive.png");
+    background-repeat: no-repeat;
+    z-index: 1000
+}
+
+.gameKachel .badge.app {
+    position: absolute;
+    width: 28px;
+    height: 33px;
+    top: 2px;
+    right: 2px;
+    background-image: url("/spielecenter/images/badge_icon_app.png");
+    background-repeat: no-repeat
+}
+
+.gameKachel .badge.new {
+    position: absolute;
+    width: 146px;
+    height: 104px;
+    top: 2px;
+    left: 2px;
+    background-repeat: no-repeat
+}
+
+.gameKachel .badge.update {
+    position: absolute;
+    width: 146px;
+    height: 104px;
+    top: 2px;
+    left: 2px;
+    background-image: url("/images/cms_images/kachel_badge_42755_20211207141227_146x104.png");
+    background-repeat: no-repeat
+}
+
+.lang_EN .gameKachel .hand_spielen, .lang_EN .gameKachel .hand, .lang_CZ .gameKachel .hand_spielen, .lang_CZ .gameKachel .hand {
+    background-image: url("/spielecenter/images/navi_zeiger_weiss_EN.png")
+}
+
+.gameKachel .hand_leer {
+    display: none;
+    background-image: url("/spielecenter/images/navi_zeiger_weiss_leer.png");
+    background-repeat: no-repeat;
+    background-position: 15px 27px;
+    z-index: 210
+}
+
+.gameKachel .hand_kino {
+    display: none;
+    background-image: url("/spielecenter/images/navi_kino_tipp.png");
+    background-repeat: no-repeat;
+    background-position: 15px 27px;
+    z-index: 210
+}
+
+.gameKachel .hand_abspielen {
+    display: none;
+    background-image: url("/spielecenter/images/navi_zeiger_weiss_abspielen.png");
+    background-repeat: no-repeat;
+    background-position: 15px 27px;
+    z-index: 210
+}
+
+.gameKachel .hand_info {
+    display: none;
+    background-image: url("/spielecenter/images/navi_zeiger_weiss_info2.png");
+    background-repeat: no-repeat;
+    background-position: 0px 27px;
+    z-index: 210
+}
+
+.gameKachel .hand_open {
+    display: none;
+    background-image: url("/spielecenter/images/navi_zeiger_weiss_oeffnen.png");
+    background-repeat: no-repeat;
+    background-position: 0px 27px;
+    z-index: 210
+}
+
+.body_sport1 .gameKachel .hand, .body_sport1 .gameKachel .hand_spielen, .body_sport1 .gameKachel .hand_abspielen, .body_sport1 .gameKachel .hand_open, .body_sport1 .gameKachel .hand_info {
+    background-image: url("/spielecenter/images/navi_zeiger_weiss_spielen_sport1.png");
+    background-position: -10px 22px
+}
+
+.body_rtl2 .gameKachel .hand, .body_rtl2 .gameKachel .hand_spielen, .body_rtl2 .gameKachel .hand_abspielen, .body_rtl2 .gameKachel .hand_open, .body_rtl2 .gameKachel .hand_info {
+    background-image: url("/spielecenter/images/rtl2_ok-spielen.png");
+    background-position: 12px 26px
+}
+
+.gameKachel.gameKachelSelected .hand, .gameKachel.gameKachelSelected .hand_spielen, .gameKachel.gameKachelSelected .hand_leer, .gameKachel.gameKachelSelected .hand_abspielen, .gameKachel.gameKachelSelected .hand_info, .gameKachel.gameKachelSelected .hand_open, .gameKachel.gameKachelSelected .hand_kino, .gameKachel.gameKachelSelected .kachelAction {
+    display: block
+}
+
+#kachelContainerBG {
+    position: absolute;
+    top: 395px;
+    left: -63px;
+    height: 104px;
+    width: 1280px;
+    background-color: #DFE5E9
+}
+
+#kachelContainerVisible {
+    position: absolute;
+    top: 404px;
+    height: 316px;
+    width: 1171px;
+    overflow: hidden
+}
+
+.kachelImg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 146px;
+    height: 104px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-color: #12111B
+}
+
+.gameKachel .kachelImg {
+    margin: 2px 2px 0px 2px
+}
+
+#kachelContainer {
+    position: absolute;
+    height: 104px;
+    left: 0px;
+    top: 40px
+}
+
+.kachelRowName {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'couchplay',Tiresias,'Philips Screen Font 4','Droid Sans',sans-serif;
+    position: absolute;
+    color: #FFF;
+    height: 20px;
+    width: 500px;
+    left: 4px;
+    z-index: 20
+}
+
+.kachelRowEmpty {
+    display: none;
+    font-size: 20px;
+    position: absolute;
+    color: #FFF;
+    height: 20px;
+    width: 500px;
+    left: 0px
+}
+
+.gameKachel .dynamicKachel {
+    margin: 2px
+}
+
+.dynamicKachel {
+    display: table;
+    width: 146px;
+    height: 104px;
+    color: #FFF
+}
+
+.kachel34 .dynamicKachel {
+    height: 195px;
+    background-size: cover
+}
+
+.dynamicKachelText {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'couchplay',Tiresias,'Philips Screen Font 4','Droid Sans',sans-serif;
+    display: table-cell;
+    align-items: center;
+    padding: 0px 10px;
+    box-sizing: border-box
+}
+
+.kachelRowName.activeLane {
+}
+
+#kachelContainerEmpty,#kachelContainerFavoritesEmpty,#kachelContainerRecentEmpty {
+    color: #EFEFEF;
+    display: none;
+    font-size: 24px;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 100%
+}
+
+#kachelScrollArrowLeft {
+    position: absolute;
+    top: 470px;
+    left: -25px;
+    width: 13px;
+    height: 26px;
+    background-image: url('/spielecenter/images/index_pfeil_links.png');
+    background-repeat: no-repeat;
+    z-index: 560
+}
+
+#kachelScrollArrowLeft2 {
+    position: absolute;
+    top: 568px;
+    left: -25px;
+    width: 13px;
+    height: 26px;
+    background-image: url('/spielecenter/images/index_pfeil_links.png');
+    background-repeat: no-repeat;
+    z-index: 560
+}
+
+#kachelScrollArrowLeft.active,#kachelScrollArrowLeft2.active {
+    background-image: url('/spielecenter/images/index_pfeil_links-aktiv.png')
+}
+
+#kachelScrollArrowRight {
+    position: absolute;
+    top: 470px;
+    right: -25px;
+    width: 13px;
+    height: 26px;
+    background-image: url('/spielecenter/images/index_pfeil_rechts.png');
+    background-repeat: no-repeat;
+    z-index: 560
+}
+
+#kachelScrollArrowRight2 {
+    position: absolute;
+    top: 568px;
+    right: -25px;
+    width: 13px;
+    height: 26px;
+    background-image: url('/spielecenter/images/index_pfeil_rechts.png');
+    background-repeat: no-repeat;
+    z-index: 560
+}
+
+#kachelScrollArrowRight.active,#kachelScrollArrowRight2.active {
+    background-image: url('/spielecenter/images/index_pfeil_rechts-aktiv.png')
+}
+
+.animated {
+    -moz-transition: left 500ms, top 500ms;
+    -webkit-transition: left 500ms, top 500ms;
+    -o-transition: left 500ms, top 500ms;
+    transition: left 500ms, top 500ms
+}
+
+#bigPlayerFullscreenButton {
+    opacity: 0px;
+    position: absolute;
+    width: 120px;
+    height: 44px;
+    bottom: 0px;
+    right: 0px;
+    background-image: url(/spielecenter/images/btn_enlarge_default.png);
+    background-size: 120px 44px;
+    z-index: 106
+}
+
+.fullscreen #bigPlayerFullscreenButton {
+    right: 63px;
+    bottom: 160px;
+    background-size: 165px 60px;
+    width: 165px;
+    height: 60px;
+    background-image: url(/spielecenter/images/btn_decrease_default.png)
+}
+
+#bigPlayerFullscreenLogo {
+    position: absolute;
+    top: 580px;
+    left: 100px;
+    height: 27px;
+    width: 239px;
+    background-image: url(/spielecenter/images/cp_logo_small.png);
+    display: none
+}
+
+.fullscreen #bigPlayerFullscreenLogo {
+    display: block
+}
+
+#switchinXXLLeft {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 720px;
+    width: 284px;
+    background-image: url(/spielecenter/images/SwitchInXXL3_left.png);
+    background-color: grey;
+    display: none
+}
+
+.fullscreen #switchinXXLLeft {
+    display: block
+}
+
+#switchinXXLBottom {
+    position: absolute;
+    top: 560px;
+    left: 284px;
+    height: 160px;
+    width: 996px;
+    background-image: url(/spielecenter/images/SwitchInXXL3_bottom.png);
+    background-color: grey;
+    display: none
+}
+
+.fullscreen #switchinXXLBottom {
+    display: block
+}
+
+#smallPlayerLogo {
+    display: none
+}
+
+.fullscreen #smallPlayerLogo {
+    display: block
+}
+
+#smallPlayerWerbung {
+    display: block
+}
+
+.fullscreen #smallPlayerWerbung {
+    display: none
+}
+
+#navBottom {
+    position: absolute;
+    left: -63px;
+    top: 561px;
+    height: 40px;
+    width: 1280px
+}
+
+.body_sport1 #navBottom, .body_rtl2 #navBottom {
+    top: 2px;
+    z-index: 500
+}
+
+.navContainer {
+    position: relative;
+    display: block
+}
+
+.nav {
+    position: relative;
+    text-align: center
+}
+
+.nav a {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 22px;
+    padding: 10px 20px;
+    font-size: 20px
+}
+
+.nav a, .nav span {
+    color: #ccc
+}
+
+.body_sport1 .nav a {
+    color: #999
+}
+
+.body_rtl2 .nav a {
+    color: #82898c
+}
+
+.nav .nav_inner {
+    display: table-cell;
+    width: 110px;
+    height: 66px;
+    text-align: center;
+    vertical-align: middle
+}
+
+.nav .nav_selection {
+    position: relative;
+    background-color: transparent;
+    height: 6px;
+    bottom: 0px;
+    left: 0px
+}
+
+.body_sport1 .nav a.selected {
+    background-color: transparent;
+    color: #343434
+}
+
+.body_rtl2 .nav a.selected {
+    background-color: transparent;
+    color: #000
+}
+
+.body_sport1 .nav .nav_selection, .body_rtl2 .nav .nav_selection {
+    background-color: transparent;
+    color: #CCC;
+    bottom: -8px;
+    height: 4px
+}
+
+.body_sport1 .nav a:focus .nav_selection, .body_sport1 .nav a:hover .nav_selection {
+    background-color: #F6A800 !important
+}
+
+.body_sport1 .nav a:focus, .body_sport1 .nav a:hover {
+    color: #F6A800
+}
+
+.body_rtl2 .nav a:focus .nav_selection, .body_rtl2 .nav a:hover .nav_selection {
+    background-color: #E41B41 !important
+}
+
+.body_rtl2 .nav a:focus, .body_rtl2 .nav a:hover {
+    color: #E41B41
+}
+
+.body_sport1 .nav a.selected .nav_selection, .body_rtl2 .nav a.selected .nav_selection {
+    background-color: black
+}
+
+.nav a:focus .nav_selection, .nav a:hover .nav_selection {
+    background-color: #F0001E
+}
+
+.body_p7 .nav a:focus .nav_selection, .body_p7 .nav a:hover .nav_selection {
+    background-color: #f0001e
+}
+
+.nav a.selected, .nav a.selected#nav_early {
+    background-color: #F0001E;
+    color: #FEFEFE
+}
+
+.nav #nav_early {
+    background-color: #1b262f;
+    color: #FEFEFE
+}
+
+.mouseScrollerLeft {
+    z-index: 500;
+    display: block;
+    position: absolute;
+    border: 1px solid red;
+    width: 100px;
+    height: 130px;
+    top: 409px;
+    left: -63px
+}
+
+.mouseScrollerRight {
+    z-index: 500;
+    display: block;
+    position: absolute;
+    border: 1px solid red;
+    width: 100px;
+    height: 130px;
+    top: 409px;
+    right: -63px
+}
+
+.navRest {
+    background-color: #4f4c4b;
+    height: 76px;
+    right: 0px;
+    position: absolute;
+    top: 1px;
+    width: 59px
+}
+
+.buttonHandInner {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 44px;
+    height: 44px;
+    background: url('/images/cms_images/nav_mauszeiger_20160301120347_44x44.png') left top no-repeat
+}
+
+.buttonHand {
+    position: absolute;
+    right: 25px;
+    bottom: 10px
+}
+
+.buttonHand {
+    display: none
+}
+
+a:focus .buttonHand, a:hover .buttonHand {
+    display: block
+}
+
+#buttonBarBg {
+    z-index: 200 !important
+}
+
+#buttonBar {
+    z-index: 250 !important
+}
+
+#buttonBar .button.red {
+    left: 80px
+}
+
+#buttonBar .button.green {
+    left: 238px
+}
+
+#buttonBar .button.yellow {
+    left: 390px
+}
+
+#buttonBar .button.blue {
+    left: 625px
+}
+
+.body_rtl2 #buttonBar .button.red {
+    left: 250px !important
+}
+
+.body_rtl2 #buttonBar .button.green {
+    left: 400px !important
+}
+
+.body_rtl2 #buttonBar .button.yellow {
+    left: 550px !important
+}
+
+.body_rtl2 #buttonBar .button.blue {
+    left: 750px !important
+}
+
+#buttonBar #numButton8 {
+    left: 856px
+}
+
+#buttonBar #numButton9 {
+    left: 996px
+}
+
+#buttonBar #numButton0 {
+    left: 906px
+}
+
+#buttonBar #numButton1 {
+    left: 79px
+}
+
+#popupBg {
+    position: absolute;
+    display: block;
+    width: 1280px;
+    height: 720px;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: 2000;
+    transition: opacity 300ms
+}
+
+#popup {
+    background-color: #EEE;
+    border: 3px solid #1E2A32;
+    color: #666;
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    left: 190px;
+    padding: 40px 60px;
+    text-align: left;
+    top: 46px;
+    width: 900px;
+    z-index: 2100;
+    line-height: 22px;
+    box-shadow: 3px 3px 10px black;
+    transition: opacity 300ms;
+    text-align: center
+}
+
+#popup.consent {
+    top: 350px;
+    width: 1000px
+}
+
+#popup.welcome {
+    top: 375px;
+    width: 740px;
+    left: 270px;
+    font-size: 22px;
+    line-height: 28px
+}
+
+.popupHeadline {
+    color: #394C62;
+    font-size: 35px;
+    font-family: 'couchplay',Tiresias,'Philips Screen Font 4','Droid Sans',sans-serif;
+    text-align: center
+}
+
+.popupButtons {
+    position: relative;
+    bottom: -15px
+}
+
+.popupButtons .portalButton {
+    padding: 10px 20px
+}
+
+.globalNotificationHighlight {
+    color: #75dce2;
+    font-weight: bold
+}
+
+.newsFeed {
+    position: absolute;
+    top: 0px;
+    width: 550px;
+    height: 30px
+}
+
+#likePopupBG {
+    display: none;
+    background-color: rgb(30,30,30);
+    opacity: 0.8;
+    overflow: hidden;
+    z-index: 1000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 720px
+}
+
+#likePopup {
+    display: block;
+    transition: width 300ms;
+    background-color: #1D2A32;
+    overflow: hidden;
+    z-index: 1000;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 0px;
+    height: 720px
+}
+
+#likePopupContent {
+    display: none;
+    position: absolute;
+    width: 351px;
+    height: 720px;
+    top: 0px;
+    left: 4px
+}
+
+#likePopupName {
+    font-size: 26px;
+    font-family: 'couchplay',Tiresias,'Philips Screen Font 4','Droid Sans',sans-serif;
+    color: #fff;
+    margin-bottom: 5px
+}
+
+#likePopupStats {
+    font-size: 18px;
+    color: #34b0ea;
+    margin-bottom: 10px
+}
+
+#likePopupSimilarGames {
+    position: relative;
+    width: 321px;
+    height: 100px;
+    left: 30px
+}
+
+.similarGameLink {
+    position: absolute;
+    width: 100px;
+    height: 72px;
+    padding: 2px;
+    border: 2px solid transparent
+}
+
+.similarGameLink:hover,.similarGameLink:focus {
+    border: 2px solid white
+}
+
+.iconNaviIcon {
+    display: inline-block;
+    position: relative;
+    background-image: url('/spielecenter/images/iconNavi_sprites2.png');
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    width: 24px;
+    height: 20px
+}
+
+.iconNaviLink .iconNaviName {
+    color: #FFF
+}
+
+.iconNaviLink:focus .iconNaviName, .iconNaviLink:hover .iconNaviName {
+    color: #000
+}
+
+.iconNaviCounter {
+    position: absolute;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    top: 5px;
+    left: 49px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px
+}
+
+.iconNaviLink #iconNavi_home {
+    background-position: -506px -2px
+}
+
+.iconNaviLink:hover #iconNavi_home, .iconNaviLink:focus #iconNavi_home {
+    background-position: -534px -2px
+}
+
+.iconNaviLink #iconNavi_top {
+    background-position: -562px -2px
+}
+
+.iconNaviLink:hover #iconNavi_top, .iconNaviLink:focus #iconNavi_top {
+    background-position: -590px -2px
+}
+
+.iconNaviLink #iconNavi_recommendation {
+    background-position: -114px -2px
+}
+
+.iconNaviLink:hover #iconNavi_recommendation, .iconNaviLink:focus #iconNavi_recommendation {
+    background-position: -142px -2px
+}
+
+.iconNaviLink #iconNavi_new, .iconNaviLink #iconNavi_early {
+    background-position: -338px -2px
+}
+
+.iconNaviLink:hover #iconNavi_new, .iconNaviLink:focus #iconNavi_new, .iconNaviLink:hover #iconNavi_early, .iconNaviLink:focus #iconNavi_early {
+    background-position: -366px -2px
+}
+
+.iconNaviLink #iconNavi_continue {
+    background-position: -618px -2px
+}
+
+.iconNaviLink:hover #iconNavi_continue, .iconNaviLink:focus #iconNavi_continue {
+    background-position: -646px -2px
+}
+
+.iconNaviLink #iconNavi_favorites {
+    background-position: -170px -2px
+}
+
+.iconNaviLink:hover #iconNavi_favorites, .iconNaviLink:focus #iconNavi_favorites {
+    background-position: -198px -2px
+}
+
+.iconNaviLink #iconNavi_search {
+    background-position: -782px -2px
+}
+
+.iconNaviLink:hover #iconNavi_search, .iconNaviLink:focus #iconNavi_search {
+    background-position: -808px -2px
+}
+
+.iconNaviLink #iconNavi_profile {
+    background-position: -394px -2px
+}
+
+.iconNaviLink:hover #iconNavi_profile, .iconNaviLink:focus #iconNavi_profile {
+    background-position: -422px -2px
+}
+
+.iconNaviLink #iconNavi_feedback {
+    background-position: -226px -2px
+}
+
+.iconNaviLink:hover #iconNavi_feedback, .iconNaviLink:focus #iconNavi_feedback {
+    background-position: -254px -2px
+}
+
+.iconNaviLink #iconNavi_privacy {
+    background-position: -58px -2px
+}
+
+.iconNaviLink:hover #iconNavi_privacy, .iconNaviLink:focus #iconNavi_privacy {
+    background-position: -86px -2px
+}
+
+.iconNaviLink #iconNavi_impress {
+    background-position: -282px -2px
+}
+
+.iconNaviLink:hover #iconNavi_impress, .iconNaviLink:focus #iconNavi_impress {
+    background-position: -310px -2px
+}
+
+.iconNaviLink #iconNavi_play {
+    background-position: -450px -2px
+}
+
+.iconNaviLink:hover #iconNavi_play, .iconNaviLink:focus #iconNavi_play {
+    background-position: -478px -2px
+}
+
+.iconNaviLink #iconNavi_back {
+    background-position: -674px -2px
+}
+
+.iconNaviLink:hover #iconNavi_back, .iconNaviLink:focus #iconNavi_back {
+    background-position: -702px -2px
+}
+
+.iconNaviLink #iconNavi_idea {
+    background-position: -728px -2px
+}
+
+.iconNaviLink:hover #iconNavi_idea, .iconNaviLink:focus #iconNavi_idea {
+    background-position: -754px -2px
+}
