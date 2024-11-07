@@ -11,7 +11,7 @@
         <style type="text/css">
             @font-face {
                 font-family: "couchplay";
-                src: url("/spielecenter/fonts/bebas130.ttf");
+                src: url("/fonts/bebas130.ttf");
             }
         </style>
         <script type='text/javascript'>
